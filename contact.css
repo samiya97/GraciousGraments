@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cu-body{
+    height: 1520px;
+    width: 100%;
+    position: absolute;
+   // border: 1px solid #000;
+}
+
+
+#contact-banner{
+	height:140px;
+	width:100%;
+	position:absolute;
+
+}
+
+#contact-banner img{
+	margin-top:0px;
+	margin-left:170px;
+}
+
+
+#cont-direct{
+	height: 565px;
+    width: 50%;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 173px;
+}
+
+#map{
+	height: 350px;
+    width: 70%;
+    position: absolute;
+    top: 900px;
+    margin-left: 350px;
+    //border: 1px solid #093;
+}
+
+#cuform-div{
+    height: 600px;
+    width: 38%;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 450px;
+}
+
+.cu-form{
+    width: 100%;
+    height: 570px;
+    margin-top: -20px;
+}
+
+
+
+.cu-name{
+	
+	height: 50px;
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 2px;
+	border-radius:3px 3px 3px 3px;
+	border:2px solid #03C;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:22px;
+	color:#333;
+}
+
+.cutextarea{
+	height: 150px;
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 2px;
+	border-radius:3px 3px 3px 3px;
+	border-color:#00F;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:22px;
+	color:#333;
+}
+
+.cuform-para{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+	color:#333;
+	padding-left:8%;
+}
+
+.submitbtn1{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 90%;
+	margin-left:5%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+.submitbtn1:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	margin-top:25px;
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .2s ease;
+	-moz-transition: .2s ease;
+	-o-transition: .2s ease;
+	-ms-transition: .2s ease;
+	transition: .2s ease;
+}
+
+.submit:hover .ease{
+  width:90%;
+  margin-left:5%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+#form-div{
+left: 50%;
+margin-right: 3%;
+width: 88%;
+margin-left: 0;
+padding-left: 3%;
+padding-right: 3%;
+}
+	
+	
+
+#fav_item{
+	margin-top:530px;
+	margin-left:50px;
+	text-shadow:3px 3px 3px #5fa4da;
+}
+
+#bar{
+	height:1px;
+	border-bottom:2px solid #c3c3c3;
+	margin-left:50px
+	}
+
+
+	/* CSS Document */
+
